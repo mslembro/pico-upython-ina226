@@ -1,0 +1,16 @@
+{
+  "name": "pico-upython-ina226",
+  "version": "1.0.0",
+  "description": "MicroPython driver for the TI INA226 power measurement IC.", 
+  "author": "mslembro",
+  "license": "MIT",
+  "urls": [
+    ["ina226.py", "github:mslembro/pico-upython-ina226/ina226.py"]
+  ],
+  "deps": [],
+  "version": "0.1",
+  "repository": {
+        "type": "git",
+        "url": "https://github.com/mslembro/pico-upython-ina226.git"
+    }
+}
