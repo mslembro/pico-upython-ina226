@@ -1,10 +1,20 @@
-# TI_INA226_micropython
+# pico-upython-ina226
 
 This library provides support for the TI INA226 power measurement IC with micropython firmware.
 Datasheet and other information on the IC: https://www.ti.com/product/INA226
 #  
 This library is derived from https://github.com/robert-hh/INA219 </br>
 with the friendly support of the community at https://forum.micropython.org/
+
+## Install on your board
+
+Using mip, you can install this on the board (make sure to first enable the Wifi connection)
+
+```python
+import mip
+mip.install("github:mslembro/pico-upython-ina226")
+```
+
 ## Motivation
 I needed a micropython library for the INA226 devices for a small power meter project I was working on. I did find libraries for the 
 Raspberry Pi, but none for micropython. Thus, I had to modify an existing library for the INA219 devices.
